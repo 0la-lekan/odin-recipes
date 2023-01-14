@@ -1,3 +1,7 @@
+* {
+    border: solid orange;
+    margin: 0.1cm;
+}
 body {
     font-family: Arial, Verdana, Tahoma, sans-serif;
     font-size: 15px;
@@ -8,12 +12,33 @@ body {
 .link {
     color: #C8ADC0;
 
+
 }
 
 h1 {
     color: #3B60E4;
     font-size: 30px;
+    display: inline;
 }
 h2 {
     color: #7765E3;
+    display: inline;
 }
+ul {
+    list-style: none;
+    padding: 0;
+}
+ol {
+    
+    padding: .1cm;
+}
+li {
+    padding: 0.1cm;
+    margin: .1cm;
+    border: 2px solid blue;
+}
+
+ 
+
+
+
